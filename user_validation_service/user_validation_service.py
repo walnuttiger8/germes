@@ -1,5 +1,5 @@
-from iuser_repository import IUserRepository
-from user import User
+from repository.user.base.iuser_repository import IUserRepository
+from models.user import User
 from models.shared.validation_result import IValidationResult, ValidationComment, FailureValidationResult, SuccessValidationResult
 
 

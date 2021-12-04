@@ -1,5 +1,5 @@
-from irepository import IRepository
-from user import User
+from repository.base.irepository import IRepository
+from models.user import User
 from abc import ABC
 
 
