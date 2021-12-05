@@ -1,0 +1,4 @@
+from .iregistry_value_type_repository import IRegistryValueTypeRepository
+from .iregistry_column_repository import IRegistryColumnRepository
+from .iregistry_record_repository import IRegistryRecordRepository
+from .iregistry_repository import IRegistryRepository
