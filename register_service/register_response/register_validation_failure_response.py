@@ -1,5 +1,5 @@
 from models.shared.validation_result import FailureValidationResult
-from register_service.register_response.base.register_failure_response import RegisterFailureResponse
+from .base.register_failure_response import RegisterFailureResponse
 
 
 class RegisterValidationFailureResponse(RegisterFailureResponse):

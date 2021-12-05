@@ -1,5 +1,5 @@
 from abc import ABC
-from iregister_response import IRegisterResponse
+from .iregister_response import IRegisterResponse
 
 
 class RegisterFailureResponse(IRegisterResponse, ABC):

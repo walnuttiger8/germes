@@ -1,4 +1,4 @@
-from register_service.register_response.base.iregister_response import IRegisterResponse
+from .base.iregister_response import IRegisterResponse
 from models.user import User
 
 

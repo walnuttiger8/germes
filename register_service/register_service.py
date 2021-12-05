@@ -1,8 +1,8 @@
 from models import User
 from models.shared.validation_result import FailureValidationResult
-from register_service.dto import RegisterUser
-from register_service.register_response import RegisterSuccessResponse, RegisterValidationFailureResponse, \
-    IRegisterResponse
+from .dto import RegisterUser
+from .register_response import IRegisterResponse, RegisterValidationFailureResponse, \
+    RegisterSuccessResponse
 from repository.user.base.iuser_repository import IUserRepository
 from user_validation_service import UserValidationService
 
@@ -28,9 +28,3 @@ class RegisterService:
 
         self._user_repository.add(user)
         return RegisterSuccessResponse(user)
-
-
-if __name__ == '__main__':
-    new_user = RegisterUser(login="sdf", password_hash="nu-tipa-pa$$word_hash))")
-    service = RegisterService(None, None)
-    service.register_new_user(new_user)
