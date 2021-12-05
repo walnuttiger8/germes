@@ -1,10 +1,10 @@
 from unittest import TestCase
 from unittest.mock import Mock
 
-from register_service import RegisterService
-from register_service.dto import RegisterUser
-from register_service.register_response import RegisterSuccessResponse
-from user_validation_service import UserValidationService
+from application.services.register_service import RegisterService
+from application.services.register_service.dto import RegisterUser
+from application.services.register_service.register_response import RegisterSuccessResponse
+from application.services.user_validation_service import UserValidationService
 
 
 class TestRegisterService(TestCase):

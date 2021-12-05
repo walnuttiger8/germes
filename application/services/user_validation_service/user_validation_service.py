@@ -1,6 +1,6 @@
-from repository.user.base.iuser_repository import IUserRepository
-from models.user import User
-from models.shared.validation_result import IValidationResult, ValidationComment, FailureValidationResult, SuccessValidationResult
+from application.repository.user.base.iuser_repository import IUserRepository
+from application.models.user import User
+from application.models.shared.validation_result import IValidationResult, ValidationComment, FailureValidationResult, SuccessValidationResult
 
 
 class UserValidationService:

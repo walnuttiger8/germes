@@ -1,4 +1,4 @@
-from models.shared.validation_result import FailureValidationResult
+from application.models.shared.validation_result import FailureValidationResult
 from .base.register_failure_response import RegisterFailureResponse
 
 

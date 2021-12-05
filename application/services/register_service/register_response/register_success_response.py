@@ -1,5 +1,5 @@
 from .base.iregister_response import IRegisterResponse
-from models.user import User
+from application.models.user import User
 
 
 class RegisterSuccessResponse(IRegisterResponse):

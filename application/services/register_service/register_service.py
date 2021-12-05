@@ -1,10 +1,10 @@
-from models import User
-from models.shared.validation_result import FailureValidationResult
+from application.models import User
+from application.models.shared.validation_result import FailureValidationResult
 from .dto import RegisterUser
 from .register_response import IRegisterResponse, RegisterValidationFailureResponse, \
     RegisterSuccessResponse
-from repository.user.base.iuser_repository import IUserRepository
-from user_validation_service import UserValidationService
+from application.repository.user.base.iuser_repository import IUserRepository
+from application.services.user_validation_service import UserValidationService
 
 
 class RegisterService:
